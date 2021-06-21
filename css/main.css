@@ -120,6 +120,14 @@ section{
   padding: 0;
 }
 
+.hero{
+  background-image: url("img/hero.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  text-transform: uppercase;
+}
+
 .nav-list{
   padding-left: 0;
   width: 575px;
@@ -158,13 +166,7 @@ section{
   max-width: 100%;
 }
 
-.hero{
-  background-image: url("img/hero.jpg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  text-transform: uppercase;
-}
+
 
 .hero h1{
   position: relative;
@@ -237,7 +239,7 @@ section{
   color: #faa541;
 }
 
-.category-text > h3{
+.category-text h3{
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
