@@ -95,7 +95,7 @@ section{
 .brand{
   width: 170px;
   height: 85px;
-  margin-left: 15px;
+  margin-left: -15px;
   margin-right: 60px;
 }
 
@@ -115,6 +115,7 @@ section{
   background-color: #a0a0a0;
   color: #ffffff;
   width: 100px;
+  height: 30px;
   border: 0;
   padding: 0;
 }
@@ -123,6 +124,9 @@ section{
   padding-left: 0;
   width: 575px;
   margin-top: 10px;
+}
+
+.nav-list li a{
   font: 16px 700 uppercase 0.2px;
 }
 
